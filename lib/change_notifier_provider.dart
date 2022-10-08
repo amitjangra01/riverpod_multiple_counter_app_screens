@@ -31,7 +31,7 @@ class ChangeNotifierScreen extends ConsumerWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          ref.read(changeNotifierProvider.notifier).increament();
+          ref.read(changeNotifierProvider).increament();
         },
         child: const Icon(Icons.add),
       ),
